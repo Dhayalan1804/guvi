@@ -1,14 +1,14 @@
 #include<stdio.h>
 int main()
 {
-int a,b,temp,n;
+int c,d,temp,n;
 printf("enter the value");
 scanf("%d",&n);
 swap()
 {
-t=a;
-a=b;
-b=temp;
+t=c;
+c=d;
+d=temp;
 }
 return 0;
 }
