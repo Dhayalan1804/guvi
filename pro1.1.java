@@ -4,10 +4,10 @@ public class longest_prefix
 public static void main(String ar[])throws Exception
 {
 Scanner sc=new Scanner(System.in);
-int n,j;
-n=sc.nextInt();
+int b,j;
+b=sc.nextInt();
 String a[]=new String[100];
-for(int i=0;i<n;i++)
+for(int i=0;i<b;i++)
 {
 a[i]=sc.next();
 }
