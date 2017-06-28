@@ -3,17 +3,17 @@
 #include<math.h>
 void main()
 {
-   long int a[20],i,j,n,temp,c;
+   long int a[20],i,j,num,temp,c;
    long int sum=0;
    clrscr();
-   scanf("%ld",&n);
-for(i=0;i<n;i++)
+   scanf("%ld",&num);
+for(i=0;i<num;i++)
 {
   scanf("%d",&a[i]);
 }
-for(i=0;i<n;i++)
+for(i=0;i<num;i++)
 {
- for(j=i+1;j<n;j++)
+ for(j=i+1;j<num;j++)
  {
   if(a[j]>a[i])
  {
@@ -23,7 +23,7 @@ for(i=0;i<n;i++)
  }
  }
 }
-for(i=0;i<n-1;i++)
+for(i=0;i<num-1;i++)
 {
   temp=a[i+1];
   c=0;
